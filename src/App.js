@@ -9,10 +9,19 @@ import Faq2 from "./Faq2";
 import AccordionComponent from "./AccordionComponent";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Table from "./Table";
+import Navigation from "./Navigation";
+import NavBar from "./NavBar";
+import NavBar2 from "./Navbar2";
+
+
 
 function App() {
   return (
     <>
+
+    {/* <NavBar2/> */}
+    <NavBar/>
+    {/* <Navigation/>
       <Toast/>
       <ToastContainer />
       <FAQ/> 
@@ -22,7 +31,7 @@ function App() {
           <AccordionComponent />
         </div>
       </div>
-      <Table/>
+      <Table/> */}
     </>
   );
 }
