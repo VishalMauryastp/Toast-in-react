@@ -12,18 +12,21 @@ import Table from "./Table";
 import Navigation from "./Navigation";
 import NavBar from "./NavBar";
 import NavBar2 from "./Navbar2";
+import Explore from "./Table/Explore";
 
 
 
 function App() {
   return (
     <>
-
-    {/* <NavBar2/> */}
-    <NavBar/>
-    {/* <Navigation/>
-      <Toast/>
+    <Toast/>
       <ToastContainer />
+
+    <NavBar2/>
+    <NavBar/>
+    <Navigation/>
+    <Explore/>
+      
       <FAQ/> 
       <Faq2/>
       <div>
@@ -31,7 +34,7 @@ function App() {
           <AccordionComponent />
         </div>
       </div>
-      <Table/> */}
+      <Table/>
     </>
   );
 }
